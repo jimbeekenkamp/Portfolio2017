@@ -14,7 +14,6 @@ header{
 }
 header > p{
     width: 70%;
-    color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -60,7 +59,7 @@ li a:hover{
 }
 
 .parallax {
-    background-image: url("../ProjectPortfolio/images/lrwaZj.jpg");
+    background-image: url("images/lrwaZj.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -78,7 +77,7 @@ li a:hover{
 }
 
 .overmij{
-    background-image: url("../ProjectPortfolio/images/laptop_cup_glasses_plant_114948_1920x1080.jpg");
+    background-image: url("images/laptop_cup_glasses_plant_114948_1920x1080.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -108,7 +107,7 @@ article>p{
 }
 
 .contact{
-    background-image: url("../ProjectPortfolio/images/blur-background-3840x2160-spectrum-electromagnetic-4k-901.jpg");
+    background-image: url("images/blur-background-3840x2160-spectrum-electromagnetic-4k-901.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
