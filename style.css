@@ -3,6 +3,12 @@ body, html {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*voor de outline*/
+.h2outline{
+    display: none;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -25,6 +31,7 @@ header > p{
     font-weight: bold;
 }
 
+/*kleur voor logo*/
 span{
     color: #1075a9;
 }
@@ -58,7 +65,8 @@ li a:hover{
     transition: 0.8s;
 }
 
-.parallax {
+/*eerste achtergrond*/
+.parallax{
     background-image: url("images/Dark_Wood_Texture-5695311.jpg");
     height: 100%;
     background-attachment: fixed;
@@ -76,6 +84,7 @@ li a:hover{
 
 }
 
+/*tweede achtergrond*/
 .overmij{
     background-image: url("images/laptop_cup_glasses_plant_114948_1920x1080.jpg");
     height: 80%;
@@ -93,23 +102,33 @@ li a:hover{
     color: white;
 }
 
-article{
+.overmij>article{
     background-color: rgba(20,20,20,0.5);
     width: 45%;
     text-align: center;
     display: inline-block;
     border-radius: 30px;
     margin-top: 50px;
+    float: left;
+    margin-left: 10%;
 }
 
+/*ook voor article bij opleiding*/
 article>p{
     font-size: 20px;
     color: white;
     margin: 2%;
 }
 
+.pfoto>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/*derde achtergrond*/
 .opleiding{
-    background-image: url("images/blur-background-3840x2160-spectrum-electromagnetic-4k-901.jpg");
+    background-image: url("images/plain-backgrounds-19120-19609-hd-wallpapers.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -125,7 +144,29 @@ article>p{
     color: white;
 }
 
+.opleiding>article{
+    float: right;
+    margin-right: 5%;
+    background-color: rgba(20,20,20,0.5);
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 50px;
+}
 
+/*de tabel*/
+td, th, table{
+    border: solid 3px;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: white;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*laaste achtergrond*/
 .parallax>h2{
     margin: 0 auto;
     padding-top: 7%;
@@ -164,13 +205,14 @@ input[type=submit]{
     font-size: 30px;
 }
 
-input[type=submit]:hover {
-    background-color: #2b2b2b;
+input[type=submit]:hover{
+    background-color: #2C2929;
     transition: 0.2s;
 }
 
+/*achtergrond gallerij*/
 .gallery{
-    background-image: url("images/abstract-motion-background-blue-cyan-purple-4k-and-full-hd_nyw56exgg__F0000.png");
+    background-image: url("images/Dark_Wood_Texture-5695311.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -212,6 +254,7 @@ input[type=submit]:hover {
     transition: 0.5s;
     opacity: 1;
 }
+/*stop gallerij*/
 
 footer{
     width: 100%;
@@ -228,7 +271,8 @@ footer>p{
     width: 50%;
 }
 
-.fa {
+/*voor de logos in de footer*/
+.fa{
     padding: 10px;
     font-size: 50px;
     width: 15px;
@@ -238,26 +282,26 @@ footer>p{
     border-radius: 50%;
 }
 
-.fa:hover {
+.fa:hover{
     opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook{
     background: darkslategray;
     color: white;
 }
 
-.fa-twitter {
+.fa-twitter{
     background: darkslategray;
     color: white;
 }
 
-.fa-snapchat-ghost {
+.fa-snapchat-ghost{
     background: darkslategray;
     color: white;
 }
 
-.fa-instagram {
+.fa-instagram{
     background: darkslategray;
     color: white;
 }
