@@ -59,7 +59,7 @@ li a:hover{
 }
 
 .parallax {
-    background-image: url("images/lrwaZj.jpg");
+    background-image: url("images/Dark_Wood_Texture-5695311.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -72,13 +72,13 @@ li a:hover{
     padding-top: 20%;
     margin: 0 auto;
     font-size: 50px;
-    color: black;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #1075a9;
+
 }
 
 .overmij{
     background-image: url("images/laptop_cup_glasses_plant_114948_1920x1080.jpg");
-    height: 100%;
+    height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,14 +88,14 @@ li a:hover{
 
 .overmij>h2{
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 7%;
     font-size: 50px;
     color: white;
 }
 
 article{
     background-color: rgba(20,20,20,0.5);
-    width: 50%;
+    width: 45%;
     text-align: center;
     display: inline-block;
     border-radius: 30px;
@@ -103,10 +103,12 @@ article{
 }
 
 article>p{
+    font-size: 20px;
     color: white;
+    margin: 2%;
 }
 
-.contact{
+.opleiding{
     background-image: url("images/blur-background-3840x2160-spectrum-electromagnetic-4k-901.jpg");
     height: 100%;
     background-attachment: fixed;
@@ -116,9 +118,17 @@ article>p{
     text-align: center;
 }
 
+.opleiding>h2{
+    margin: 0 auto;
+    padding-top: 7%;
+    font-size: 50px;
+    color: white;
+}
+
+
 .parallax>h2{
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 7%;
     font-size: 50px;
     color: white;
 }
@@ -137,13 +147,13 @@ input[type=text],[type=email], select, textarea{
 
 textarea{
     font-family: Arial, sans-serif;
-    height: 200px;
+    height: 150px;
 }
 
 input[type=submit]{
     background-color: darkslategray;
     color: white;
-    padding: 1% 2%;
+    padding: 0.5% 2%;
     margin-left: 25%;
     margin-top: 1%;
     border: none;
@@ -166,12 +176,13 @@ input[type=submit]:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    text-align: left;
 }
 
 .gallery>h2{
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 7%;
+    padding-left: 6.5%;
     font-size: 50px;
     color: white;
 }
